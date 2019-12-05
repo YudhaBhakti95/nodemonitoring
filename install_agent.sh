@@ -19,7 +19,7 @@ do
 			sudo tar -xvf /opt/agent/agent_romanova_linux_arm7.tar.gz -C /opt/agent/			
 			sudo cp /opt/agent/_bin/agent.yaml.example /opt/agent/_bin/agent.yaml
 			cd /opt/agent/_bin && sed -i "s/<var-1>/$node/g" agent.yaml
-			sudo sed -i "s/<var-2>/device-management.jeager.io:9092/g" /opt/agent/_bin/agent.yaml
+			sudo sed -i "s/<var-2>/35.187.228.75:9092/g" /opt/agent/_bin/agent.yaml
 			sudo sed -i "s/<var-3>/raisaadriana/g" /opt/agent/_bin/agent.yaml
 			sudo sed -i "s/<var-4>/6Juni1990/g" /opt/agent/_bin/agent.yaml
 			sudo sed -i "s/<var-5>/jeager.node.monitoring/g" /opt/agent/_bin/agent.yaml
